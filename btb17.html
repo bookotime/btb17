@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding:0;
+			box-sizing: border-box;
+		}
+		#all{
+			width: 960px;
+			height: 700px;
+			background: #E4CFED;
+			margin:auto;
+		}
+		header{
+			width: 940px;
+			height: 100px;
+			
+			margin-right: 5px;
+			margin-left: 5px;
+
+
+		}
+		#logo{
+			text-align: center;
+			width: 240px;
+			height: 100px;
+			line-height: 100px;
+			display: inline-block;
+			background: white
+		}
+		#banner{
+			text-align: center;
+			width: 695px;
+			height: 100px;
+			line-height: 100px;
+			display: inline-block;
+			background: white;
+		}
+		 nav{
+			width: 960px;
+			height: 31px;
+			background: white;
+			border:1px solid black;
+			
+		}
+		 nav ul{
+			display: inline-block;
+			float:left;
+		}
+		nav ul li {
+
+			display: inline;
+			line-height: 30px;
+			
+			padding: 0px 20px;
+			border-right: 1px solid black;
+			text-align: center;
+
+		}
+		nav ul li:last-child{
+			border-right: none;
+		}
+		form{
+			width: 100px;
+			height: 30px;
+			margin-right: 75px;
+			display: inline-block;
+			
+			color: white;
+			float: right;
+			line-height: 30px;
+		}
+		nav a{
+			text-decoration: none;
+			color: blue;
+		}
+		#left{
+			margin-top:10px;
+			width: 120px;
+			height: 480px;
+			float: left;
+		}
+		#left1{
+			width:120px;
+			height: 130px;
+			background: white;
+			border:1px solid black;
+
+		}
+		#left1 ul li{
+			list-style:none;
+		}
+		#left1 a{
+			text-decoration: none;
+			color:black;
+		}
+		#left2{
+			width: 120px;
+			height: 250px;
+			background: white;
+			border: 1px solid black;
+			margin-top: 10px;
+		}
+		#content{
+			margin-top:10px;
+			width:640px;
+			height: 480px;
+			float: left;
+		}
+		#hotnews,#photoslide,#n1,#n2,#n3,#n4,#n5,#n6{
+			float: left;
+		}
+		#hotnews{
+			width: 310px;
+			height: 120px;
+			background: white;
+			border:1px solid black;
+			margin-left: 10px;
+			
+		}
+		#photoslide{
+			width: 310px;
+			height: 120px;
+			background: white;
+			border:1px solid black;
+			margin-left: 10px;
+		}
+		#n1,#n4{
+			width:200px;
+			height: 150px;
+			background: white;
+			border:1px solid black;
+			margin-top: 10px;
+			margin-left: 20px;
+		}
+		#n2,#n3,#n5,#n6{
+			width:200px;
+			height: 150px;
+			background: white;
+			border:1px solid black;
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+		#right{
+			width: 180px;
+			height: 480px;
+			background: white;
+			border:1px solid black;
+			float:left;
+			margin-left:20px;
+			margin-top: 10px;
+		}
+		
+		
+
+		
+		footer{
+			width: 960px;
+			height: 100px;
+		
+		}
+		footer  ul{
+			display: inline-block;
+			float:right;
+		}
+		footer  ul  li {
+
+			display: inline;
+			line-height: 30px;
+			
+			padding: 0px 20px;
+			border-right: 1px solid black;
+			text-align: center;
+
+
+		}
+		footer ul li:last-child{
+			border-right: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="all">
+		<header>
+			<div id="logo">
+				Logo
+			</div>
+			<div id="banner">
+				Banner
+			</div>
+		</header>
+		<nav>
+			
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Students</a></li>
+					<li><a href="">Courses</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+				<form action="">
+					<input type="text" placeholder="Search">
+				</form>
+		</nav>
+
+		<aside id="left">
+			<div id="left1">
+				<ul>
+					<li><a href="">Introduction</a></li>
+					<li><a href="">News</a></li>
+					<li><a href="">Education</a></li>
+					<li><a href="">Register</a></li>
+					<li><a href="">Courses</a></li>
+				</ul>
+			</div>
+			<div id="left2">
+				
+			</div>
+		</aside>
+		<div id="content">
+			<article id="hotnews">
+				Hot news
+			</article>
+			<article id="photoslide">
+				Photo slide
+			</article>
+			<article id="n1">
+				News 1
+			</article>
+			<article id="n2">
+				News 2
+			</article>
+			<article id="n3">
+				News 3
+			</article>
+			<article id="n4">
+				News 4
+			</article>
+			<article id="n5">
+				News 5
+			</article>
+			<article id="n6">
+				News 6
+			</article>
+		</div>
+		<aside id="right">
+			Lich <br>
+			Bieu Do` <br>
+			Map <br>
+		</aside>
+		<footer>
+			<span>@2012-Tap Chi lap trinh</span>
+			
+			
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Students</a></li>
+					<li><a href="">Courses</a></li>
+					<li><a href="">About us</a></li>
+					<li><a href="">Contact us</a></li>
+				</ul>
+				
+			
+		</footer>
+	</div>
+</body>
+</html>
